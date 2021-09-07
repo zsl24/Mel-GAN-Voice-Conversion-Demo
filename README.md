@@ -4,7 +4,8 @@ The code is borrowed from https://github.com/marcoppasini/MelGAN-VC
 Reference paper is [MelGAN-VC: Voice Conversion and Audio Style Transfer on arbitrarily long samples using Spectrograms](https://arxiv.org/abs/1910.03713)  
 
 ## Package Requirements
-CUDA 11.0 [Download for here](https://developer.nvidia.com/cuda-11.0-download-archive)  
+
+>  CUDA 11.0 [Download from here](https://developer.nvidia.com/cuda-11.0-download-archive)  
 cudnn 8.0.4 [Download from here](https://developer.nvidia.com/compute/machinelearning/cudnn/secure/8.0.4/11.0_20200923/cudnn-11.0-windows-x64-v8.0.4.30.zip)  
 tensorflow 2.4.0  
 pytorch 1.7.1  
