@@ -30,4 +30,4 @@ We also collected dataset of Trump, and used it to train a VC model which can co
 `train.py` contains entire network architecture, and code from training.  
 `test.py` contains code from testing, generating results and plotting figures.  
 `streamtest.py` is the real-time demo for voice conversion. You should run this file through cmd, and make sure your computer has a mic.  
-
+`config.py` contains parameters from transformation and hyper-parameters for model  
