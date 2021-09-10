@@ -16,4 +16,21 @@ numpy 1.19.5
 
 ## Dataset
 Dataset used by original paper:[CMU ARCTIC Databases](http://www.festvox.org/cmu_arctic/) includes speech data of 4 speakers, bdl(male), slt(female), clb(female), rms(male)  
-We also collected dataset of Trump, and used it to train a VC model which can convert your speech to trump's speech.  
+We also collected dataset of Trump, and used it to train a VC model which can convert your speech to trump's speech, if you need this trump dataset, please contact me [zengsunlu30@163.com] . The data is not necessarily parallel, neithor for duration of speech, nor for linguistic content of speech.  
+
+## Folders
+### models
+`/models` provides trained models with different pairs of source speaker and target speaker.  
+### results
+`/results` stores wave result of converted voice.  
+### dataset
+`/dataset` provides dataset from different speakers. Speech data is stored in .wav file with 16kHz sample rate.
+
+## Files
+### train.py
+This file contains entire network architecture, and code from training.  
+### test.py
+This file contains code from testing, generating results and plotting figures.  
+### streamtest.py
+This file is the real-time demo for voice conversion. You should run this file through cmd, and make sure your computer has a mic.  
+
