@@ -27,10 +27,7 @@ We also collected dataset of Trump, and used it to train a VC model which can co
 `/dataset` provides dataset from different speakers. Speech data is stored in .wav file with 16kHz sample rate.
 
 ## Files
-### train.py
-This file contains entire network architecture, and code from training.  
-### test.py
-This file contains code from testing, generating results and plotting figures.  
-### streamtest.py
-This file is the real-time demo for voice conversion. You should run this file through cmd, and make sure your computer has a mic.  
+`train.py` contains entire network architecture, and code from training.  
+`test.py` contains code from testing, generating results and plotting figures.  
+`streamtest.py` is the real-time demo for voice conversion. You should run this file through cmd, and make sure your computer has a mic.  
 
